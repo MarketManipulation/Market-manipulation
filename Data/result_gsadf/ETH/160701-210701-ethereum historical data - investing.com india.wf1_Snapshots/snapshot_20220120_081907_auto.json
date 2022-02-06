@@ -1,0 +1,187 @@
+
+{
+	"commands" : 
+	[
+		"SERIES01.rename eth",
+		"{%spool}.display",
+		"{%spool}.rename eth",
+		"{%spool}.rename eth_res"
+	],
+	"description" : "",
+	"label" : "save",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\users\\flora\\desktop\\data\\ÂÛÎÄ\\´úÂë\\result_gsadf\\eth\\160701-210701-ethereum historical data - investing.com india.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "U",
+				"_last_update" : [ 738174.3423148148, "01/20/2022 08:12" ],
+				"_name" : "Untitled",
+				"_obj_count" : 10,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "integer",
+						"_name" : "@DATE",
+						"_obs_max" : 1827,
+						"_obs_min" : 1,
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "CV",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "ETH",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "ETH_RES",
+						"_type" : "SPOOL"
+					},
+					
+					{
+						"_name" : "GSADF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GSADF_CV",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "GSADF_DIST",
+						"_type" : "VECTOR"
+					},
+					
+					{
+						"_name" : "GSADF_VEC",
+						"_type" : "VECTOR"
+					},
+					
+					{
+						"_name" : "MAX_ADF",
+						"_type" : "MATRIX"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 1827
+			},
+			
+			{
+				"_frequency" : "U",
+				"_last_update" : [ 738173.8712037037, "01/19/2022 20:54" ],
+				"_name" : "simulation",
+				"_obj_count" : 16,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "integer",
+						"_name" : "@DATE",
+						"_obs_max" : 100,
+						"_obs_min" : 1,
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "ADFSPEC",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "BETA",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "BETA_PC",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "CV",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "DELTA",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "ETA",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "GSADF_CV",
+						"_type" : "VECTOR"
+					},
+					
+					{
+						"_name" : "R1",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "REP",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RUNIN",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "T",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "T1",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "THETA",
+						"_type" : "SCALAR"
+					},
+					
+					{
+						"_name" : "TSTAT_MAX_MAX",
+						"_type" : "VECTOR"
+					}
+				],
+				"_obs_count" : 100
+			}
+		]
+	}
+}

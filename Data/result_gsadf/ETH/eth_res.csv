@@ -1,0 +1,21 @@
+Right Tailed ADF Tests,,,,
+Sample : 1 1827,,,,
+Included observations: 1827,,,,
+Null hypothesis: ETH has a unit root,,,,
+"Lag Length: Fixed, lag=0",,,,
+Window size: 95,,,,
+Date: 01/19/22   Time: 18:45,,,,
+,,,,
+,,,t-Statistic,Prob.*
+,,,,
+GSADF,,, 10.88541, 0.0000
+Test critical values**:,99% level,, 2.948986,
+,95% level,, 2.446912,
+,90% level,, 2.216522,
+,,,,
+*Right-tailed test,,,,
+**Critical values are based on a Monte Carlo simulation (run with Matlab),,,,
+
+
+
+
